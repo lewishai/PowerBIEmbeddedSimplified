@@ -1,0 +1,14 @@
+﻿@using PBIEmbeddedApp.Models
+@using Microsoft.PowerBI.AspNet.Mvc.Html
+
+@model ReportViewModel
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div class="side-body padding-top">
+    @Html.PowerBIReportFor(m => m.Report, new { style = "height:85vh", powerbi_access_token = Model.AccessToken })
+</div>
+
