@@ -13,4 +13,4 @@ Then, Run the app and you will be able to embed first report you have imported i
 
 You can change this by checking the HomeController.
 
-Detailed blog post is here: 
+Detailed blog post is here:  http://www.mostafaelzoghbi.com/2016/04/power-bi-embedded-step-by-step.html
